@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopika - Video Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #5d3a3a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #5d3a3a;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .portfolio, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #5d3a3a;
+        }
+        footer {
+            background-color: #5d3a3a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gopika</h1>
+        <p>Self-motivated and multitasking video editor</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Gopika, a self-motivated person with a passion for video editing. I excel at multitasking and bringing creative visions to life through my editing skills. With a keen eye for detail and a love for storytelling, I transform raw footage into captivating visual experiences.</p>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Check out some of my work below. I specialize in various types of video editing, including promotional videos, short films, and social media content.</p>
+            <!-- Add your portfolio items here -->
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to work with me or just say hello, feel free to reach out!</p>
+            <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 Gopika. All rights reserved.
+    </footer>
+</body>
+</html>
